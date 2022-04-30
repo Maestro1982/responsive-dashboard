@@ -1,4 +1,5 @@
 import Cards from '../cards/Cards';
+import Table from '../table/Table';
 import './mainDash.css';
 
 function MainDash() {
@@ -6,6 +7,7 @@ function MainDash() {
     <div className='mainDash'>
       <h1>Dashboard</h1>
       <Cards />
+      <Table />
     </div>
   );
 }
